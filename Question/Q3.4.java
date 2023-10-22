@@ -54,7 +54,7 @@ public class Main
 	            break;
 	        }
 	    }
-	    if(flag==0)
+	    if(flag == 0)
 	    {
 	        System.out.println("The name which you have entered is not found in the database");
 	    }
