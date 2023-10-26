@@ -1,9 +1,11 @@
 # What is mean by an Inheritance ?
-- **Inheritance** is a fundamental concept in object-oriented programming where one class (the subclass or derived class) **inherits the attributes and methods of another class** (the superclass or base class). 
+- **Inheritance** is a fundamental concept in object-oriented programming where one class [the subclass or derived class](https://github.com/SunilKumar-K/Java-oops/tree/sunil/Java-OOPS/Inheritance/SubclassAndSuperClass#readme) **inherits the attributes and methods of another class** [the superclass or base class](https://github.com/SunilKumar-K/Java-oops/tree/sunil/Java-OOPS/Inheritance/SubclassAndSuperClass#readme). 
 
 - It allows you to create new classes that are based on existing classes, promoting code reuse and the creation of more specialized classes.
 
 ### Example: Inheritance in Java 
+
+![picture](https://github.com/SunilKumar-K/Java-oops/blob/sunil/Java-OOPS/Inheritance/diagrams/inheritance.png)
 
 In above diagram, **Vehicle** is the **superclass**, and **Car** is the **subclass**. The Car class inherits attributes and methods from the Vehicle class.
 
