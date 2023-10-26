@@ -18,7 +18,7 @@ We encourage contributions in the form of bug fixes, feature enhancements, or th
 2. Clone Your Fork:
    - Clone the repository to your local machine using the command:
      ```sh
-     git@github.com:aayush105/Java-hacktoberfest23.git
+     git@github.com:username/Java-hacktoberfest23.git
      ```
 
 3. Create a New Branch:
