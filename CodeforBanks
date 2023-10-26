@@ -1,0 +1,54 @@
+import java.util.*;
+public class bankcustomer{
+    String name;
+    int an;
+    String at;
+    String status;
+    int balance;
+    String ltd;
+    int am;
+    int res=0;
+    void display(String name,int an)
+    {
+        System.out.print(name+"\n"+an+"\n");
+    }
+    void withdraw(int balance, String status,int am)
+    {
+        if(balance<1000)
+        {
+            System.out.print("Transaction Failed.\n"+balance+"\n");
+        }
+        else
+        {
+           res=balance-am; 
+           System.out.print("Transaction Success\n"+res+"\n");
+           if(res<1000)
+           {
+                System.out.print("Alert:Low Balance.\n");
+           }
+        }
+        String[] arrstr=ltd.split("/");
+        int m=Integer.parseInt(arrstr[2]);
+        if(2023-m>1)
+        {
+            status="Passive";
+        }
+        System.out.print(status);
+    }
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        bankcustomer b1=new bankcustomer();
+        b1.name=sc.nextLine();
+        b1.an=sc.nextInt();
+        sc.nextLine();
+        b1.at=sc.nextLine();
+        b1.status=sc.nextLine();
+        b1.balance=sc.nextInt();
+        sc.nextLine();
+        b1.ltd=sc.nextLine();
+        b1.am=sc.nextInt();
+        b1.display(b1.name, b1.an);
+        b1.withdraw(b1.balance,b1.status,b1.am);
+    }
+}
