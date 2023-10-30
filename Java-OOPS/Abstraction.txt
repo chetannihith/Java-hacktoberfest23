@@ -1,0 +1,17 @@
+Abstraction is one of the fundamental concepts in object-oriented programming (OOP) that allows you to model
+complex systems by simplifying and hiding unnecessary details. It is achieved by defining abstract classes and 
+interfaces that specify the methods and properties a class should have, without providing a full implementation. 
+Abstraction helps in creating a clear separation between the interface (what a class should do) and the 
+implementation (how it does it).
+
+In Java, you can achieve abstraction through abstract classes and interfaces. 
+Here's an explanation and example code for both:
+
+1. Abstract Classes:
+An abstract class is a class that cannot be instantiated on its own and is meant to be subclassed. 
+It can contain both abstract and concrete methods. Abstract methods are declared without an implementation 
+and must be implemented by any concrete subclass. Concrete methods have an implementation.
+
+2. Interfaces:
+An interface is a contract that defines a set of abstract methods that a class must implement. 
+All methods in an interface are implicitly abstract and public. A class can implement multiple interfaces.
